@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("https://static01.nyt.com/images/2020/02/26/arts/allthebright1/allthebright1-videoSixteenByNineJumbo1600.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    font-family: "Geist Mono", monospace;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: grey;
+    position: relative;
+}
+
+.title-display {
+    position: absolute;
+    width: 20%;
+    height: 3em;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url("Logo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom {
+    width: 100vw;
+    height: 75px;
+    position: fixed;
+    background-color: rgba(56,57,51,0.5);
+    bottom: 0;
+    padding-bottom: 40px;
+    padding-top: 24px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-opt {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.bottom-opt>a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bottom-opt>a:hover {
+    font-size: 22px;
+    color: #FF6961;
+    transition: 0.5s;
+}
+
+.movie-disp {
+    position: absolute;
+    margin-right: 16px;
+    right: 0;
+    bottom: 8%;
+    padding: 8px;
+    /* height: 100vh; */
+    height: 30vh;
+    width: 800px;
+    display: flex;
+    gap: 16px;
+}
+
+.container {
+    min-width: 200px;
+    border-radius: 24px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 24px;
+    padding-left: 8px;
+    font-size: 22px;
+    font-weight: 500;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    transition: 1s;
+}
+
+.info-box {
+    /* border: 1px solid red; */
+    width: 40%;
+    position: absolute;
+    bottom: 15%;
+    left: 32px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    COLOR: WHITE;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(3px); 
+    border-radius: 32px;
+}
+
+.info-box>div {
+    padding: 16px 24px;
+}
+
+.info-title,
+.info-other,
+.info-desc {
+    /* border: 1px solid blue; */
+}
+
+.info-title {
+    height: 35%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 56px;
+}
+
+.info-other {
+    font-family: "Bebas Neue", sans-serif;
+    height: 15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    font-size: 24px;
+}
+
+.info-desc {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3;
+    height: 50%;
+}
