@@ -30,3 +30,5 @@ A dynamic movie card slider inspired by Netflix’s hero section. This project f
     cd CardAnimation
 
 3.Open index.html in your browser
+
+Preview : https://ramana8680.github.io/CardAnimation/
